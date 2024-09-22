@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: 정다은
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Jeong Daeun
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Daeun
+last_name: Jeong
 
 # Status emoji
 status:
@@ -17,11 +17,11 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Majoring in Computer Engineering
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
+  - name: Jeonbuk National University
     url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
@@ -31,7 +31,7 @@ bio: My research interests include distributed robotics, mobile computing and pr
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:daeun3736@jbnu.ac.kr'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/GetResearchDev
@@ -54,6 +54,7 @@ highlight_name: true
 website: ""
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include
-distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops
-self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hello! My name is Daeun Jeong, and I am currently majoring in Computer Engineering at Jeonbuk National University. 
+I have a passion for software development, especially in UI/UX design and front-end development, 
+where I can work on creating visually engaging and user-centric experiences.
+I am currently conducting research on interfaces that interact with chatbots at the Software Interaction Lab (SIT Lab) at Jeonbuk National University.
