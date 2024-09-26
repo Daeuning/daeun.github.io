@@ -29,6 +29,9 @@ marketing:
 # Site header
 header:
   navbar:
+    logo:
+      text: ""
+      filename: "img/JeongDaeun.png"
     enable: true
     show_search: true
     show_theme_chooser: true
