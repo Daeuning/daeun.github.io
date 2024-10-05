@@ -31,12 +31,14 @@ bio: My research interests include distributed robotics, mobile computing and pr
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:daeun3736@jbnu.ac.kr'
+    url: "mailto:daeun3736@jbnu.ac.kr"
     label: E-mail Me
   - icon: brands/instagram
     url: https://www.instagram.com/eun._.0419?igsh=MWNkbGQwcHNuZGYzNQ==
   - icon: brands/github
     url: https://github.com/Daeuning
+  - icon: academicons/cv
+    url: uploads/resume.pdf
   #- icon: brands/linkedin
   #  url: https://www.linkedin.com/
   # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
@@ -54,7 +56,7 @@ highlight_name: true
 website: ""
 ---
 
-Hello! My name is Daeun Jeong, and I am currently majoring in Computer Engineering at Jeonbuk National University. 
-I have a passion for software development, especially in UI/UX design and front-end development, 
+Hello! My name is Daeun Jeong, and I am currently majoring in Computer Engineering at Jeonbuk National University.
+I have a passion for software development, especially in UI/UX design and front-end development,
 where I can work on creating visually engaging and user-centric experiences.
 I am currently conducting research on interfaces that interact with chatbots at the Software Interaction Lab (SIT Lab) at Jeonbuk National University.
