@@ -61,107 +61,43 @@
 &lt;li>Implemented voice interview features using Google Cloud STT (Speech-to-Text) API&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;p>Feel free to leave any comments or questions about my experience with the Interview Partner project!&lt;/p></description></item><item><title>🧠 Sharpen your thinking with a second brain</title><link>http://localhost:1313/daeun.github.io/blog/second-brain/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/daeun.github.io/blog/second-brain/</guid><description>&lt;p>Create a personal knowledge base and share your knowledge with your peers.&lt;/p>
-&lt;p>Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p>
-&lt;p>Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p>
-&lt;p>Use it as your second brain, either publicly sharing your knowledge with your peers via your website, or via a private GitHub repository and password-protected site just for yourself.&lt;/p>
-&lt;h2 id="mindmaps">Mindmaps&lt;/h2>
-&lt;p>Hugo Blox supports a Markdown extension for mindmaps.&lt;/p>
-&lt;p>With this open format, can even edit your mindmaps in other popular tools such as Obsidian.&lt;/p>
-&lt;p>Simply insert a Markdown code block labelled as &lt;code>markmap&lt;/code> and optionally set the height of the mindmap as shown in the example below.&lt;/p>
-&lt;p>Mindmaps can be created by simply writing the items as a Markdown list within the &lt;code>markmap&lt;/code> code block, indenting each item to create as many sub-levels as you need:&lt;/p>
-&lt;div class="highlight">
-&lt;pre class="chroma">
-&lt;code>
-```markmap {height="200px"}
-- Hugo Modules
-- Hugo Blox
-- blox-plugins-netlify
-- blox-plugins-netlify-cms
-- blox-plugins-reveal
-```
-&lt;/code>
-&lt;/pre>
-&lt;/div>
-&lt;p>renders as&lt;/p>
-&lt;div class="markmap" style="height: 200px;">
-&lt;pre>- Hugo Modules
-- Hugo Blox
-- blox-plugins-netlify
-- blox-plugins-netlify-cms
-- blox-plugins-reveal&lt;/pre>
-&lt;/div>
-&lt;p>Anh here&amp;rsquo;s a more advanced mindmap with formatting, code blocks, and math:&lt;/p>
-&lt;div class="highlight">
-&lt;pre class="chroma">
-&lt;code>
-```markmap
-- Mindmaps
-- Links
-- [Hugo Blox Docs](https://docs.hugoblox.com/)
-- [Discord Community](https://discord.gg/z8wNYzb)
-- [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
-- Features
-- Markdown formatting
-- **inline** ~~text~~ *styles*
-- multiline
-text
-- `inline code`
--
-```js
-console.log('hello');
-console.log('code block');
-```
-- Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
-```
-&lt;/code>
-&lt;/pre>
-&lt;/div>
-&lt;p>renders as&lt;/p>
-&lt;div class="markmap" style="height: 500px;">
-&lt;pre>- Mindmaps
-- Links
-- [Hugo Blox Docs](https://docs.hugoblox.com/)
-- [Discord Community](https://discord.gg/z8wNYzb)
-- [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
-- Features
-- Markdown formatting
-- **inline** ~~text~~ *styles*
-- multiline
-text
-- `inline code`
--
-```js
-console.log('hello');
-console.log('code block');
-```
-- Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$&lt;/pre>
-&lt;/div>
-&lt;h2 id="highlighting">Highlighting&lt;/h2>
-&lt;p>&lt;mark>Highlight&lt;/mark> important text with &lt;code>mark&lt;/code>:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">mark&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Highlighted text&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">mark&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="callouts">Callouts&lt;/h2>
-&lt;p>Use
-(aka &lt;em>asides&lt;/em>, &lt;em>hints&lt;/em>, or &lt;em>alerts&lt;/em>) to draw attention to notes, tips, and warnings.&lt;/p>
-&lt;p>By wrapping a paragraph in &lt;code>{{% callout note %}} ... {{% /callout %}}&lt;/code>, it will render as an aside.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">{{% callout note %}}
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{% /callout %}}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
-&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
-&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
-&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
-&lt;/span>
-&lt;span class="dark:text-neutral-300">A Markdown aside is useful for displaying notices, hints, or definitions to your readers.&lt;/span>
-&lt;/div>
-&lt;p>Or use the &lt;code>warning&lt;/code> callout type so your readers don&amp;rsquo;t miss critical details:&lt;/p>
-&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-yellow-100 dark:bg-yellow-900">
-&lt;span class="pr-3 pt-1 text-red-400">
-&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0zM12 15.75h.007v.008H12z"/>&lt;/svg>
-&lt;/span>
-&lt;span class="dark:text-neutral-300">A Markdown aside is useful for displaying notices, hints, or definitions to your readers.&lt;/span>
-&lt;/div>
-&lt;h2 id="did-you-find-this-page-helpful-consider-sharing-it-">Did you find this page helpful? Consider sharing it 🙌&lt;/h2></description></item><item><title>👩🏼‍🏫 Teach academic courses</title><link>http://localhost:1313/daeun.github.io/blog/teach-courses/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/daeun.github.io/blog/teach-courses/</guid><description>&lt;p>
+&lt;p>Feel free to leave any comments or questions about my experience with the Interview Partner project!&lt;/p></description></item><item><title>🦦 SOODAL</title><link>http://localhost:1313/daeun.github.io/blog/second-brain/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/daeun.github.io/blog/second-brain/</guid><description>&lt;h1 id="projects">Projects&lt;/h1>
+&lt;h2 id="soodal">SOODAL&lt;/h2>
+&lt;p>&lt;strong>Jul. 2023 - Mar. 2024&lt;/strong>&lt;/p>
+&lt;p>SOODAL is a platform service that helps students and external teachers at Jeonbuk National University easily find study materials and share feedback about their experience with each other.&lt;/p>
+&lt;h3 id="technology-stack">Technology Stack&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&amp;amp;logo=next.js&amp;amp;logoColor=white" alt="Next.js Logo" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&amp;amp;logo=git&amp;amp;logoColor=white" alt="Git Logo" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="experience">Experience&lt;/h3>
+&lt;ul>
+&lt;li>UX Design&lt;/li>
+&lt;li>Conducted meetings with external companies regarding UI design&lt;/li>
+&lt;li>Front-End Developer using Next.js&lt;/li>
+&lt;/ul>
+&lt;h3 id="socks-off-univ">Socks Off Univ.&lt;/h3>
+&lt;p>&lt;strong>Jeonbuk National University Student Start-up Company&lt;/strong>&lt;/p>
+&lt;p>Socks Off Univ. aims to create an environment where all students can receive equal access to education.&lt;/p>
+&lt;ul>
+&lt;li>Selected for Jeonbuk National University&amp;rsquo;s 2023 Student Start-up Support Program&lt;/li>
+&lt;li>Selected for the Hana Social Venture 2nd Cohort&lt;/li>
+&lt;li>Received support from Wonkwang University&amp;rsquo;s Student Start-up Program&lt;/li>
+&lt;li>Participated in the Orange Planet Jeonju Center Incubating Program&lt;/li>
+&lt;li>Awarded at various start-up competitions, including the JBNU Start-up Growth Sharing Conference and the Wonkwang University Entrepreneurship Competition&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Feel free to leave any comments or questions about my experience with the SOODAL project!&lt;/p></description></item><item><title>👩🏼‍🏫 Teach academic courses</title><link>http://localhost:1313/daeun.github.io/blog/teach-courses/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/daeun.github.io/blog/teach-courses/</guid><description>&lt;p>
 is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p>
 &lt;p>&lt;strong>Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong>&lt;/p>
 &lt;p>On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p>
@@ -266,68 +202,44 @@ is my current editor&lt;/li>
 &lt;h2 id="desktop-apps">Desktop Apps&lt;/h2>
 &lt;ul>
 &lt;li>Better Touch Tool for window management and custom keyboard shortcuts&lt;/li>
-&lt;/ul></description></item><item><title>✅ Manage your projects</title><link>http://localhost:1313/daeun.github.io/blog/project-management/</link><pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/daeun.github.io/blog/project-management/</guid><description>&lt;p>Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p>
-&lt;h2 id="ideation">Ideation&lt;/h2>
-&lt;p>Hugo Blox supports a Markdown extension for mindmaps.&lt;/p>
-&lt;p>Simply insert a Markdown code block labelled as &lt;code>markmap&lt;/code> and optionally set the height of the mindmap as shown in the example below.&lt;/p>
-&lt;p>Mindmaps can be created by simply writing the items as a Markdown list within the &lt;code>markmap&lt;/code> code block, indenting each item to create as many sub-levels as you need:&lt;/p>
-&lt;div class="highlight">
-&lt;pre class="chroma">
-&lt;code>
-```markmap {height="200px"}
-- Hugo Modules
-- Hugo Blox
-- blox-plugins-netlify
-- blox-plugins-netlify-cms
-- blox-plugins-reveal
-```
-&lt;/code>
-&lt;/pre>
-&lt;/div>
-&lt;p>renders as&lt;/p>
-&lt;div class="markmap" style="height: 200px;">
-&lt;pre>- Hugo Modules
-- Hugo Blox
-- blox-plugins-netlify
-- blox-plugins-netlify-cms
-- blox-plugins-reveal&lt;/pre>
-&lt;/div>
-&lt;h2 id="diagrams">Diagrams&lt;/h2>
-&lt;p>Hugo Blox supports the &lt;em>Mermaid&lt;/em> Markdown extension for diagrams.&lt;/p>
-&lt;p>An example &lt;strong>Gantt diagram&lt;/strong>:&lt;/p>
-&lt;pre>&lt;code>```mermaid
-gantt
-section Section
-Completed :done, des1, 2014-01-06,2014-01-08
-Active :active, des2, 2014-01-07, 3d
-Parallel 1 : des3, after des1, 1d
-Parallel 2 : des4, after des1, 1d
-Parallel 3 : des5, after des3, 1d
-Parallel 4 : des6, after des4, 1d
-```
-&lt;/code>&lt;/pre>
-&lt;p>renders as&lt;/p>
-&lt;div class="mermaid">gantt
-section Section
-Completed :done, des1, 2014-01-06,2014-01-08
-Active :active, des2, 2014-01-07, 3d
-Parallel 1 : des3, after des1, 1d
-Parallel 2 : des4, after des1, 1d
-Parallel 3 : des5, after des3, 1d
-Parallel 4 : des6, after des4, 1d
-&lt;/div>
-&lt;h2 id="todo-lists">Todo lists&lt;/h2>
-&lt;p>You can even write your todo lists in Markdown too:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="k">- [x]&lt;/span> Write math example
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">- [x]&lt;/span> Write diagram example
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">- [ ]&lt;/span> Do something else
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
+&lt;/ul></description></item><item><title>🦁 LIKELION</title><link>http://localhost:1313/daeun.github.io/blog/project-management/</link><pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/daeun.github.io/blog/project-management/</guid><description>&lt;h1 id="additional-experience">Additional Experience&lt;/h1>
+&lt;h2 id="likelion">LIKELION&lt;/h2>
+&lt;p>&lt;strong>LIKELION UNIV. JBNU 11th&lt;/strong>&lt;br>
+&lt;strong>Mar. 2023 - Dec. 2023&lt;/strong>&lt;/p>
+&lt;p>Completed the Front-End Track.&lt;/p>
+&lt;h3 id="technology-stack">Technology Stack&lt;/h3>
 &lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Write math example
-&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Write diagram example&lt;/li>
-&lt;/ul>
+&lt;li>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&amp;amp;logo=react&amp;amp;logoColor=61DAFB" alt="React Logo" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
 &lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Do something else&lt;/li>
+&lt;li>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&amp;amp;logo=flutter&amp;amp;logoColor=white" alt="Flutter Logo" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="https://img.shields.io/badge/GitLab-FCA121?style=for-the-badge&amp;amp;logo=gitlab&amp;amp;logoColor=white" alt="GitLab Logo" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&amp;amp;logo=figma&amp;amp;logoColor=white" alt="Figma Logo" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/li>
 &lt;/ul>
-&lt;h2 id="did-you-find-this-page-helpful-consider-sharing-it-">Did you find this page helpful? Consider sharing it 🙌&lt;/h2></description></item></channel></rss>
+&lt;h3 id="experience">Experience&lt;/h3>
+&lt;ul>
+&lt;li>Learned React in the Front-End Track&lt;/li>
+&lt;li>Participated in LIKELION&amp;rsquo;s central hackathon&lt;/li>
+&lt;li>Worked on UI/UX design using Figma&lt;/li>
+&lt;li>Role as a Flutter Front-End Developer&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Feel free to leave any comments or questions about my experience with LIKELION!&lt;/p></description></item></channel></rss>
