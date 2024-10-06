@@ -60,3 +60,9 @@ Hello! My name is Daeun Jeong, and I am currently majoring in Computer Engineeri
 I have a passion for software development, especially in UI/UX design and front-end development,
 where I can work on creating visually engaging and user-centric experiences.
 I am currently conducting research on interfaces that interact with chatbots at the Software Interaction Lab (SIT Lab) at Jeonbuk National University.
+
+If you have any questions or would like to get in touch, please feel free to contact me through the following:
+
+Email : daeun3736@jbnu.ac.kr
+
+phone : 010-3067-2587
