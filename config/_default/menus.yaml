@@ -14,7 +14,7 @@ main:
   - name: Profile
     parent: Info
     url: info/profile/
-    weight: 10
+    weight: 20
   - name: Organization
     parent: Info
     url: info/organization/
@@ -29,7 +29,7 @@ main:
   - name: Software
     parent: Projects
     url: projects/software/
-    weight: 10 
+    weight: 20
   - name: Design
     parent: Projects
     url: projects/design/
